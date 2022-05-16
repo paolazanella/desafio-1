@@ -28,7 +28,7 @@ import model.Funcionario;
  */
 //(Create, Retrieve, Update, Delete - ou - Criar, Consultar, Altverar, Deletar)//
 public class FuncionarioDAO {
-
+// para salvar//
     public void save(Funcionario funcionario) {
         String QUERY = "INSERT INTO funcionario ( nome, email, cpf, telefone, senha, ativo, admin)"
                 + " VALUES ( ?, ?, ?, ?, ?, ?, ?)";
